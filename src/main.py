@@ -12,6 +12,9 @@ load_css('src/style.css')
 st_tweaker.title("Happy Monthsary, Love!",
                 id = 'title')
 
+st_tweaker.caption("Please use headphones for much better experience.",
+                id='reminder')
+
 video_file = open("assets/1203.mp4", "rb")
 video_bytes = video_file.read()
 
